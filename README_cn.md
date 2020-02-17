@@ -23,9 +23,10 @@
 &emsp;&emsp;大数据分析会精准定位一个人的身份，消费水平等等，会将一个人进行归类。企业收集了我们的隐私，我们并不知道他们会做怎样的分析，而这一块是没有监管的，我们不希望看到企业分析我们的数据。我们无法做到反对企业分析数据，只能尽量通过数据分散化来加大对大数据分析的难度。
 
 ## 接入OSPN网络
-&emsp;&emsp;接入OSPN网络需要企业对现有系统进行一定的适配，包括客户端和服务器的适配。服务器的适配需要企业搭建osn-connector，请参见开源项目[osn-connector](https://github.com/OpenBPI/osn-connector)。
-企业IM服务与osn-connector之间的数据交换请参见例子[osn-imsdemo](https://github.com/OpenBPI/osn-imsdemo)
-客户端参考（待更新）
+&emsp;&emsp;接入OSPN网络需要企业对现有系统进行一定的适配，包括客户端和服务器的适配。  
+服务器的适配需要企业搭建osn-connector，请参见开源项目[osn-connector](https://github.com/OpenBPI/osn-connector)。  
+企业IM服务与osn-connector之间的数据交换请参见例子[osn-imsdemo](https://github.com/OpenBPI/osn-imsdemo)。  
+客户端参考（待更新）  
 
 ## 文档
 《开放式社交网络通信协议》
