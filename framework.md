@@ -2,7 +2,7 @@
 
 开放式社交公共网络的底层通讯采用了基于DHT结构的P2P技术。每一家接入的企业都将以一个节点的形式接入到OSPN中。
 
-![pic1](https://github.com/OpenBPI/ospn/blob/master/pic1.jpg)
+![pic1](pic1.png)
 
 企业作为节点接入需要三个部分，connector，IM服务（IMS），客户端（APP，小程序，或者web）。
 
