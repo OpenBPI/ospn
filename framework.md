@@ -16,10 +16,10 @@ connector的作用是与其他企业的connector进行数据交换。
 
 ![image](/img/pic3.jpg)
 
-IMS1代表USER1使用的IM服务。
-connector1代表与IMS1配套的服务。
-IMS2代表USER2使用的IM服务。
-connector2代表与IMS2配套的服务。
+IMS1代表USER1使用的IM服务。    
+connector1代表与IMS1配套的服务。  
+IMS2代表USER2使用的IM服务。  
+connector2代表与IMS2配套的服务。  
 
 1. USER1首次给USER2发送消息时会将消息发送给IMS1，IMS1发送寻人命令给connector1，connector1到OSPN网络里广播寻人。  
 2. connector2收到广播找人消息以后会将命令发送给IMS2,IMS2判断USER2是否在自己的服务上。如果user2在线，IMS2才会去获取用户源列表。  
