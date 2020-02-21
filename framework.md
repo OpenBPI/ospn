@@ -2,18 +2,18 @@
 
 &emsp;&emsp;开放式社交公共网络的底层通讯采用了基于DHT结构的P2P技术。每一家接入的企业都将以一个节点的形式接入到OSPN中。其结构图如下图所示
 
-![图1](pic1.png)
+![image](/img/pic1.png)
 
 
 &emsp;&emsp;企业作为节点接入需要三个部分，connector，IM服务（IMS），客户端（APP、小程序、或者web等等）。
 
-![图2](pic2.jpg)
+![image](/img/pic2.jpg)
 
 connector的作用是与其他企业的connector进行数据交换。
 
 我们以USER1发送消息给USER2为例，首次发送跨界消息流程如下图所示：
 
-![图3](pic3.jpg)
+![image](/img/pic3.jpg)
 
 USER1首次给USER2发送消息时会将消息发送给IMS1，IMS1发送找人命令给CONN1，CONN1到OSPN网络里广播找人。消息发送给IMS时会在IMS逗留，企业可以根据自己的情况决定消息滞留时间，我们建议7天或者1个月比较合理。IMS发送找人命令我们建议是在一定时间内（建议10分钟，企业可根据自己的实际情况进行调整。）消息没有被取走才发送找人命令。为了保护用户隐私connector广播找人时是没有回应的。
 
