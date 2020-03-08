@@ -26,7 +26,7 @@
 &emsp;&emsp;接入OSPN网络需要企业对现有系统进行一定的适配，包括客户端和服务器的适配。  
 服务器的适配需要企业搭建osn-connector，请参见开源项目[osn-connector](https://github.com/OpenBPI/osn-connector)。  
 企业IM服务与osn-connector之间的数据交换请参见例子[osn-imsdemo](https://github.com/OpenBPI/osn-imsdemo)。  
-客户端参考（待更新）  
+android客户端参考例子[osn-clientdemo]（https://github.com/OpenBPI/osn-clientdemo）。  
 
 ## 文档
 [《开放式社交网络通信协议》](./开放式社交网络通信协议.docx)  
