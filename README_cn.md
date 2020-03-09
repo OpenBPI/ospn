@@ -35,4 +35,5 @@ android客户端参考例子[osn-clientdemo](https://github.com/OpenBPI/osn-clientdemo)
 [微观隐私保护](micropp.md)  
 [客户端设计方案](clientsolution.md)  
 [IM服务设计方案](servicesolution.md)  
+[第三方登录设计方案](loginsolution.md)  
 
