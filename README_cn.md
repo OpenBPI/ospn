@@ -37,4 +37,4 @@ android客户端参考例子[osn-clientdemo](https://github.com/OpenBPI/osn-clientdemo)
 [IM服务设计方案](servicesolution.md)  
 [第三方登录设计方案](loginsolution.md)  
 [基于OSPN的加密邮件设计方案](cryptomail.md)  
-
+[跨界群设计思路](crossgroup.md)  
