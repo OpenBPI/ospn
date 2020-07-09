@@ -30,6 +30,8 @@ android客户端参考例子[osn-clientdemo](https://github.com/OpenBPI/osn-clientdemo)
 
 ## 文档
 [《开放式社交网络通信协议》](./开放式社交网络通信协议.docx)  
+[《开放式社交公共网络跨界群通信协议》](doc/开放式社交公共网络跨界群通信协议.docx)  
+[开放式社交公共网络白皮书中文版](doc/whitepaper_cn.md)  
 [开放式社交公共网络整体架构](framework.md)  
 [宏观隐私保护](macropp.md)  
 [微观隐私保护](micropp.md)  
